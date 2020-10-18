@@ -9,4 +9,12 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="Filters">
+        <item>Nazwa A-Z</item>
+        <item>Nazwa Z-A</item>
+        <item>Region</item>
+        <item>Ocena (Od najwyższej)</item>
+        <item>Ocena (Od najniższej)</item>
+    </string-array>
 </resources>
