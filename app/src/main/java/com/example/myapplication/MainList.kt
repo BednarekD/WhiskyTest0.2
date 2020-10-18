@@ -7,7 +7,7 @@ import android.widget.*
 
 class MainList : AppCompatActivity() {
     private lateinit var listView: ListView
-    val filters = resources.getStringArray(R.array.Filters)
+    val filters: Array<String> = resources.getStringArray(R.array.Filters)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_list)
