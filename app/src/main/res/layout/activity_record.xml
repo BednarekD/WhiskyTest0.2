@@ -9,18 +9,18 @@
 
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textOko"
         android:layout_width="137dp"
         android:layout_height="53dp"
         android:layout_marginTop="252dp"
-        android:text="Oko"
+        android:text="@string/textOko"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/spinnerOko"
         android:layout_width="228dp"
         android:layout_height="53dp"
         android:layout_marginTop="252dp"
@@ -30,18 +30,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textNos"
         android:layout_width="137dp"
         android:layout_height="53dp"
         android:layout_marginTop="304dp"
-        android:text="Nos"
+        android:text="@string/textNos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner3"
+        android:id="@+id/spinnerNos"
         android:layout_width="228dp"
         android:layout_height="53dp"
         android:layout_marginTop="304dp"
@@ -51,18 +51,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textJezyk"
         android:layout_width="137dp"
         android:layout_height="53dp"
         android:layout_marginTop="356dp"
-        android:text="Język"
+        android:text="@string/textJezyk"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner4"
+        android:id="@+id/spinnerJezyk"
         android:layout_width="228dp"
         android:layout_height="53dp"
         android:layout_marginTop="356dp"
@@ -72,18 +72,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textFinisz"
         android:layout_width="137dp"
         android:layout_height="53dp"
         android:layout_marginTop="408dp"
-        android:text="Finisz"
+        android:text="@string/textFinisz"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner5"
+        android:id="@+id/spinnerFinisz"
         android:layout_width="228dp"
         android:layout_height="53dp"
         android:layout_marginTop="408dp"
@@ -93,29 +93,28 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText"
+        android:id="@+id/editZawAlko"
         android:layout_width="228dp"
         android:layout_height="53dp"
         android:layout_marginTop="148dp"
-        android:hint="hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textZawAlko"
         android:layout_width="137dp"
         android:layout_height="53dp"
         android:layout_marginTop="148dp"
-        android:text="Zawartość alko."
+        android:text="@string/textZawAlko"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <RatingBar
-        android:id="@+id/ratingBar"
+        android:id="@+id/ratingBarRekord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
@@ -125,7 +124,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinnerRegion"
         android:layout_width="228dp"
         android:layout_height="53dp"
         android:layout_marginTop="200dp"
@@ -135,55 +134,59 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textRegion"
         android:layout_width="137dp"
         android:layout_height="53dp"
         android:layout_marginTop="200dp"
-        android:text="Region"
+        android:text="@string/textRegion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/editText3"
+        android:id="@+id/editNazwa"
         android:layout_width="228dp"
         android:layout_height="53dp"
         android:layout_marginTop="96dp"
-        android:hint="hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="223dp"
-        android:layout_height="75dp"
+        android:id="@+id/textTytul"
+        android:layout_width="221dp"
+        android:layout_height="28dp"
         android:layout_marginTop="16dp"
-        android:text="Podaj dane whisky"
+        android:layout_marginBottom="640dp"
+        android:text="@string/textTytul"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.094"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/buttonDodaj"
         android:layout_width="142dp"
         android:layout_height="75dp"
         android:layout_marginTop="16dp"
-        android:text="Dodaj"
+        android:text="@string/buttonDodaj"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.895"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textNazwa"
         android:layout_width="137dp"
         android:layout_height="53dp"
         android:layout_marginTop="96dp"
-        android:text="Nazwa"
+        android:text="@string/textNazwa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"

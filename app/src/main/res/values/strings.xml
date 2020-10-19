@@ -18,4 +18,15 @@
         <item>Ocena (od najwyższej)</item>
         <item>Ocena (od najniższej)</item>
     </array>
+
+<!--    nazwy stringów do recordActivity-->
+    <string name="textNazwa">Nazwa</string>
+    <string name="textOko">Oko</string>
+    <string name="textTytul">Oceń swoją whisky</string>
+    <string name="textNos">Nos</string>
+    <string name="textJezyk">Język</string>
+    <string name="textFinisz">Finisz</string>
+    <string name="buttonDodaj">Dodaj</string>
+    <string name="textZawAlko">Zawartość alko.</string>
+    <string name="textRegion">Region</string>
 </resources>
