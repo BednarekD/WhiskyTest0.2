@@ -19,7 +19,7 @@
         <item>Ocena (od najniższej)</item>
     </array>
 
-<!--    nazwy stringów do recordActivity-->
+    <!--    nazwy stringów do recordActivity-->
     <string name="textNazwa">Nazwa</string>
     <string name="textOko">Oko</string>
     <string name="textTytul">Oceń swoją whisky</string>

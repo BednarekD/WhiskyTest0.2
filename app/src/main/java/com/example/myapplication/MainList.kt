@@ -10,7 +10,7 @@ class MainList : AppCompatActivity() {
     val filters: Array<String> = resources.getStringArray(R.array.Filters)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_list)
+/*        setContentView(R.layout.activity_main_list)
         listView = findViewById<ListView>(R.id.recipe_list_view)
         val listItems = listOf("Octomore 5", "Lagavulin 16", "Glenfiddich 15")
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, listItems)
@@ -35,6 +35,6 @@ class MainList : AppCompatActivity() {
             override fun onNothingSelected(parent: AdapterView<*>) {
                 // write code to perform some action
             }
-        }
+        }*/
     }
 }
