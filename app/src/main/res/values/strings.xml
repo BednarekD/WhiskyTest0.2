@@ -13,7 +13,7 @@
     <string name="listaName">Lista</string>
     <array name="Filters">
         <item>Nazwa A-Z</item>
-        <item>Nazwa A-Z</item>
+        <item>Nazwa Z-A</item>
         <item>Region</item>
         <item>Ocena (od najwyższej)</item>
         <item>Ocena (od najniższej)</item>
@@ -29,4 +29,5 @@
     <string name="buttonDodaj">Dodaj</string>
     <string name="textZawAlko">Zawartość alko.</string>
     <string name="textRegion">Region</string>
+    <string name="filter">Filter</string>
 </resources>

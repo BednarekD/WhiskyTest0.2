@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.toolbar))
         val btn_new_activity = findViewById<Button>(R.id.listRedirect)
         btn_new_activity.setOnClickListener {
-            val intent = Intent(this, TestList1234567890::class.java)
+            val intent = Intent(this, WhiskyEntriesListview::class.java) //was TestList1234567890::class.java
             startActivity(intent)
         }
 

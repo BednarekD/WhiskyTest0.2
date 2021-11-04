@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity android:name=".TestList1234567890"></activity>
+        <activity android:name=".WhiskyEntriesListview"></activity>
         <activity android:name=".MainList" />
         <activity
             android:name=".MainActivity"
