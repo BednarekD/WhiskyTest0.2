@@ -29,9 +29,10 @@ class RecordActivity : AppCompatActivity() {
         // na onclicku buttona Dodaj wrzucamy obiekt wpisu w pamięć wewnętrzną
         val btnDodaj = findViewById<Button>(R.id.buttonDodaj)
         btnDodaj.setOnClickListener {
-            val entry = ItemsViewModel(entryRating,entryName,entryVisual,entryScent,entryTaste,entryFinish,entryRegion,entryVoltage)
-
             print("O teraz się to zrobiło")
+            val data = ArrayList<ItemsViewModel>()
+            val entry = ItemsViewModel(entryRating,entryName,entryVisual,entryScent,entryTaste,entryFinish,entryRegion,entryVoltage, "chuj")
+            data.add(entry)
         }
 
     }
