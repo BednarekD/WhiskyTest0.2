@@ -11,6 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="filtrujSpinner">Filtruj</string>
     <string name="listaName">Lista</string>
+
     <array name="Filters">
         <item>Nazwa A-Z</item>
         <item>Nazwa Z-A</item>
@@ -19,15 +20,50 @@
         <item>Ocena (od najniższej)</item>
     </array>
 
+    <!-- Ratings 0-10 used in activity_record -->
+    <string-array name="Ratings">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- Regions used in activity_record -->
+    <string-array name="Regions">
+        <item>Islay</item>
+        <item>Speyside</item>
+        <item>Highlands</item>
+        <item>Lowlands</item>
+        <item>Campbeltown</item>
+        <item>Islands</item>
+        <item>Canada</item>
+        <item>Japan</item>
+        <item>USA</item>
+        <item>Ireland</item>
+        <item>Other</item>
+    </string-array>
+
     <!--    nazwy stringów do recordActivity-->
     <string name="textNazwa">Nazwa</string>
     <string name="textOko">Oko</string>
     <string name="textTytul">Oceń swoją whisky</string>
     <string name="textNos">Nos</string>
-    <string name="textJezyk">Język</string>
+    <string name="textJezyk">Jezyk</string>
     <string name="textFinisz">Finisz</string>
     <string name="buttonDodaj">Dodaj</string>
-    <string name="textZawAlko">Zawartość alko.</string>
+    <string name="textZawAlko">Zawartość alko</string>
     <string name="textRegion">Region</string>
     <string name="filter">Filter</string>
+    <string name="add_record_button">ADD RECORD</string>
+    <string name="textNote">Notka</string>
+    <string name="enter_your_note">Enter your note</string>
+    <string name="podaj_nazwe">Podaj nazwe</string>
+    <string name="podaj_zawarto_alkoholu">Podaj zawartosc alkoholu</string>
 </resources>

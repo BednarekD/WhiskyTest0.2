@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/activity_main.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/activity_mainlist.xml" value="0.20260416666666667" />
-        <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/activity_record.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/activity_record.xml" value="0.33" />
         <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/activity_test_list1234567890.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/card_view_design.xml" value="0.203125" />
+        <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/content_main.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/content_record.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/fragment_first.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/fragment_first2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/fragment_second.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/fragment_second2.xml" value="0.203125" />
         <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/whisky_entries_listview.xml" value="0.203125" />
         <entry key="..\:/Users/Komput/AndroidStudioProjects/Whiskytest/app/src/main/res/layout/whisky_row.xml" value="0.203125" />
